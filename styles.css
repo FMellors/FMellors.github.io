@@ -123,6 +123,13 @@ p {
     margin-bottom: 20px;
 }
 
+#form {
+    display:flex;
+    vertical-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px
+    }
 
 /* Buttons */
 button {
@@ -139,18 +146,6 @@ button {
 
 .column button {
     background-color: white;
-}
-
-/* Emphasis */
-#header-text h1 {
-    display: inline;
-}
-
-#emphasis {
-    color: #000000;
-    margin-right: 1rem;
-    font-style: italic;
-    font-weight: bold;
 }
 
 @media (min-width: 769px) {
@@ -204,6 +199,7 @@ button {
     color: #061720;
     flex-direction: row-reverse;
     align-self: flex-end;
+    align-items: flex-end;
     font-size: small;
     margin: 10px;
     background: rgb(176,196,177);
